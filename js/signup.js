@@ -1,7 +1,6 @@
 $.validator.setDefaults({
   submitHandler: function () {
     $("#suc").show();
-    setTimeout(window.location.href = "signin.html", 1000);
   }
 });
 $.validator.methods.equal = function (value, element, param) {
@@ -116,6 +115,7 @@ $("#signup").click(function () {
   $.post(url, newuser, function (data, status) {
     alert('Created successfully');
     console.log("Inserted " + data);
+    setTimeout(window.location.href = "signin.html", 1000);
 });
 
 //   if(password == confirmpassword){
