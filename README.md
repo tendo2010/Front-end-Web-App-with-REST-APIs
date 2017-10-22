@@ -8,4 +8,4 @@ In this page you can see 3 button to manage your account such as Edit Informatio
 
 <b>How to Use</b>
 1. Open website using Wampserver or other program you have.
-2. Run terminal to run command "json-server --watch data.jason"
+2. Run terminal and run command "json-server --watch data.jason"
